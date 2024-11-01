@@ -1,0 +1,56 @@
+.widget .tsul span + span {
+	margin-left: 10px;
+}
+
+.widget .tsul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.widget .tsul li {
+	list-style: none;
+	padding: 7px 0;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+}
+
+
+.widget .tsul li:first-child {
+	padding-top: 1px;
+}
+
+
+.widget .tsul li:last-child {
+	padding-bottom: 0;
+}
+
+.widget .tsul-post-title-badge {
+	margin-left: 0 !important;
+}
+
+
+.widget .tsul .badge {
+	background-color: #777;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	min-width: 10px;
+	margin: -1px 10px 0 0;
+	padding: 5px 13px;
+	position: relative;
+	z-index: 11;
+	text-align: center;
+	vertical-align: baseline;
+	white-space: nowrap;
+}
+
+.widget .tsul .badge-right {
+	float: right;
+	margin-right: 0;
+}

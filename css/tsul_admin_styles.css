@@ -1,0 +1,79 @@
+.body {
+	position: relative;
+}
+
+.tsul-widget-options .form-line {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.tsul-widget-options .post-count-order, .tsul-widget-options .post-sort {
+	padding-bottom: 5px;
+	overflow: hidden;
+}
+
+.tsul-widget-options .form-line.margin-bottom {
+	margin-bottom: 25px;
+}
+
+.tsul-widget-options .form-label {
+	width: 34%;
+	padding-top: 5px;
+	float: left;
+}
+
+.tsul-widget-options .form-field {
+	width: 65%;
+	float: right;
+}
+
+.tsul-widget-options .form-field input[type="text"], .tsul-widget-options .form-field select {
+	width: 100%;
+	margin: 0;
+}
+
+.tsul-widget-options .form-field input[type="checkbox"] {
+	margin-top: 7px;
+}
+
+.tsul-widget-options .form-labels {
+	padding-top: 5px;
+}
+
+.tsul-widget-options .form-labels label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.tsul-widget-options .form-labels input {
+	margin-top: 0 !important;
+}
+
+.tsul-widget-options .form-field .field-sm {
+	width: 20% !important;
+}
+
+
+.styling-options-title {
+	font-weight: bold;
+	margin: 30px 0 10px;
+}
+
+
+
+.tsul-loading {
+	left: 160px;
+	top: 50px;
+	position: absolute;
+	width: 95%;
+}
+
+
+
+
+@media (max-width: 780px) {
+	.tsul-widget-options .form-label, .tsul-widget-options .form-field {
+		width: 100%;
+		float: none;
+	}
+}
